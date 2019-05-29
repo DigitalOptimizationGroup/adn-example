@@ -12,9 +12,9 @@ const cmsConfig = {
   apiUrl: process.env.REACT_APP_DOG_API_URL,
   projectId: process.env.REACT_APP_DOG_PROJECT_ID,
   apiKey: process.env.REACT_APP_DOG_API_KEY,
-  rid: appConfig.rid,
-  vid: appConfig.vid,
-  startTimestamp: appConfig.startTimestamp
+  rid: appConfig.rid || "development-test_rid",
+  vid: appConfig.vid || "development-test_vid",
+  startTimestamp: appConfig.startTimestamp || 0
 };
 
 ReactDOM.render(

@@ -35,7 +35,7 @@ dog login
 Initialize the example app with your newly created account.
 
 ```
-dog init
+dog apps:init
 
 # When prompted:
 # - choose your App Id
