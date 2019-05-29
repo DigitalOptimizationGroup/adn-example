@@ -17,6 +17,7 @@ function HelloWorld() {
                   }`
                 }
                 className="hello-world__img"
+                alt="Hello world"
               />
               <div>{caption}</div>
             </div>
