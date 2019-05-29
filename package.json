@@ -1,0 +1,37 @@
+{
+  "name": "adn-example",
+  "version": "0.1.0",
+  "description": "Example app using React Create App & Digital Optimization Group's ADN & CMS",
+  "repository": "https://github.com/DigitalOptimizationGroup/adn-example.git",
+  "author": "Digital Optimization Group LLC",
+  "license": "MIT",
+  "dependencies": {
+    "@digitaloptgroup/cms-react": "0.0.1-dev-preview.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
