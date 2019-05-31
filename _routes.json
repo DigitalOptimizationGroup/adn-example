@@ -2,6 +2,6 @@
   "/": [
     { "queryName": "helloWorld", "args": {} },
     { "queryName": "starWarsList", "args": {} },
-    { "queryName": "codeExperiment", "args": { "name": "example" } }
+    { "queryName": "codeExperiment", "args": { "experimentName": "example" } }
   ]
 }
