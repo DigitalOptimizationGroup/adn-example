@@ -2,32 +2,48 @@ import React from "react";
 import { Feature } from "@digitaloptgroup/cms-react";
 import "./HelloWorld.css";
 
-function HelloWorld() {
+const HelloWorld = ({ headline, subhead, image, caption }) => (
+  <div>
+    <div>
+      {image ? (
+        <img
+          src={`https://img.abcloud.io/c_scale,h_150,fl_progressive/${
+            image.path
+          }`}
+          className="hello-world__img"
+          alt="Hello world"
+        />
+      ) : (
+        <div style={{ height: "150px" }} />
+      )}
+      <div>{caption}</div>
+    </div>
+    <h1>{headline}</h1>
+    <h3>{subhead}</h3>
+  </div>
+);
+
+function HelloWorldFeature() {
   return (
     <Feature queryName="helloWorld">
-      {({ headline, subhead, image, caption }) => {
-        return (
-          <div>
+      {({ isLoading, error, feature }) => {
+        if (feature) {
+          return <HelloWorld {...feature} />;
+        } else if (isLoading) {
+          return <div>Loading...</div>;
+        }
+        if (error) {
+          return (
             <div>
-              <img
-                src={
-                  image &&
-                  `https://img.abcloud.io/c_scale,h_150,fl_progressive/${
-                    image.path
-                  }`
-                }
-                className="hello-world__img"
-                alt="Hello world"
-              />
-              <div>{caption}</div>
+              {error.code} : {error.message}
             </div>
-            <h1>{headline}</h1>
-            <h3>{subhead}</h3>
-          </div>
-        );
+          );
+        } else {
+          return <div>Unknown Error</div>;
+        }
       }}
     </Feature>
   );
 }
 
-export default HelloWorld;
+export default HelloWorldFeature;

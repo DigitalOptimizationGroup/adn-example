@@ -6,7 +6,8 @@
   "author": "Digital Optimization Group LLC",
   "license": "MIT",
   "dependencies": {
-    "@digitaloptgroup/cms-react": "0.0.1-dev-preview.18",
+    "@digitaloptgroup/adn-apps-cra": "0.0.1-dev-preview-13",
+    "@digitaloptgroup/cms-react": "0.0.1-dev-preview.27",
     "@material-ui/core": "^4.0.1",
     "@material-ui/icons": "^4.0.1",
     "react": "^16.8.6",
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

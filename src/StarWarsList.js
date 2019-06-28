@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
@@ -31,7 +31,7 @@ function ControlledExpansionPanels({ outcome }) {
 
   const handleChange = _ab => (event, isExpanded) => {
     if (isExpanded) {
-      const outcomeName = "openCharacter";
+      const outcomeName = "characterOpen";
       const metadata = [
         { key: "variationId", value: _ab.variationId },
         { key: "featureId", value: _ab.featureId }
@@ -44,28 +44,45 @@ function ControlledExpansionPanels({ outcome }) {
 
   return (
     <div className={classes.root}>
-      <ListFeature queryName="starWarsList">
-        {({ characterName, moreInfo, _ab }) => (
-          <ExpansionPanel
-            expanded={expanded === _ab.variationId}
-            onChange={handleChange(_ab)}
-          >
-            <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography className={classes.heading}>
-                {characterName}
-              </Typography>
-            </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-              <NestedFeature feature={moreInfo}>
-                {({ description }) => (
-                  <Typography className={classes.body}>
-                    {description}
+      <ListFeature queryName="starWarsList" tagName={null}>
+        {({ isLoading, error, feature, _ab, forwardedRef }) => {
+          if (feature) {
+            const { characterName, moreInfo } = feature;
+            return (
+              <ExpansionPanel
+                expanded={expanded === _ab.variationId}
+                onChange={handleChange(_ab)}
+                ref={forwardedRef}
+              >
+                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                  <Typography className={classes.heading}>
+                    {characterName}
                   </Typography>
-                )}
-              </NestedFeature>
-            </ExpansionPanelDetails>
-          </ExpansionPanel>
-        )}
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>
+                  <NestedFeature feature={moreInfo}>
+                    {({ feature }) => (
+                      <Typography className={classes.body}>
+                        {feature.description}
+                      </Typography>
+                    )}
+                  </NestedFeature>
+                </ExpansionPanelDetails>
+              </ExpansionPanel>
+            );
+          } else if (isLoading) {
+            return <div>Loading...</div>;
+          }
+          if (error) {
+            return (
+              <div>
+                {error.code} : {error.message}
+              </div>
+            );
+          } else {
+            return <div>Unknown Errorn</div>;
+          }
+        }}
       </ListFeature>
     </div>
   );
