@@ -1,15 +1,11 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import {
-  ListFeature,
-  NestedFeature,
-  trackers
-} from "@digitaloptgroup/cms-react";
+import { Feature, withOutcome } from "@digitaloptgroup/cms-react";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -29,63 +25,84 @@ function ControlledExpansionPanels({ outcome }) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
-  const handleChange = _ab => (event, isExpanded) => {
+  const handleChange = tracking => (event, isExpanded) => {
     if (isExpanded) {
       const outcomeName = "characterOpen";
       const metadata = [
-        { key: "variationId", value: _ab.variationId },
-        { key: "featureId", value: _ab.featureId }
+        { key: "variationId", value: tracking.variationId },
+        { key: "featureId", value: tracking.featureId }
       ];
       outcome(outcomeName, metadata);
     }
 
-    setExpanded(isExpanded ? _ab.variationId : false);
+    setExpanded(isExpanded ? tracking.variationId : false);
   };
 
   return (
     <div className={classes.root}>
-      <ListFeature queryName="starWarsList" tagName={null}>
-        {({ isLoading, error, feature, _ab, forwardedRef }) => {
-          if (feature) {
-            const { characterName, moreInfo } = feature;
+      <Feature queryName="starWarsList">
+        {({
+          variation: starWarsList,
+          tracking: starWarsTracking,
+          isLoading,
+          error
+        }) => {
+          if (starWarsList) {
             return (
-              <ExpansionPanel
-                expanded={expanded === _ab.variationId}
-                onChange={handleChange(_ab)}
-                ref={forwardedRef}
-              >
-                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                  <Typography className={classes.heading}>
-                    {characterName}
-                  </Typography>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
-                  <NestedFeature feature={moreInfo}>
-                    {({ feature }) => (
-                      <Typography className={classes.body}>
-                        {feature.description}
-                      </Typography>
-                    )}
-                  </NestedFeature>
-                </ExpansionPanelDetails>
-              </ExpansionPanel>
+              <Feature.Track {...starWarsTracking}>
+                {({ trackingRef }) => (
+                  <div ref={trackingRef}>
+                    {starWarsList.map(({ variation, tracking }, i) => {
+                      return (
+                        <Feature.Track {...tracking} key={tracking.variationId}>
+                          {({ trackingRef }) => {
+                            const { characterName, moreInfo } = variation;
+                            return (
+                              <ExpansionPanel
+                                expanded={expanded === tracking.variationId}
+                                onChange={handleChange(tracking)}
+                                ref={trackingRef}
+                              >
+                                <ExpansionPanelSummary
+                                  expandIcon={<ExpandMoreIcon />}
+                                >
+                                  <Typography className={classes.heading}>
+                                    {characterName}
+                                  </Typography>
+                                </ExpansionPanelSummary>
+                                <ExpansionPanelDetails>
+                                  <Feature.Track {...moreInfo.tracking}>
+                                    {({ trackingRef }) => {
+                                      if (moreInfo.variation) {
+                                        return (
+                                          <Typography
+                                            className={classes.body}
+                                            ref={trackingRef}
+                                          >
+                                            {moreInfo.variation.description}
+                                          </Typography>
+                                        );
+                                      }
+                                      return null;
+                                    }}
+                                  </Feature.Track>
+                                </ExpansionPanelDetails>
+                              </ExpansionPanel>
+                            );
+                          }}
+                        </Feature.Track>
+                      );
+                    })}
+                  </div>
+                )}
+              </Feature.Track>
             );
-          } else if (isLoading) {
-            return <div>Loading...</div>;
           }
-          if (error) {
-            return (
-              <div>
-                {error.code} : {error.message}
-              </div>
-            );
-          } else {
-            return <div>Unknown Errorn</div>;
-          }
+          return null;
         }}
-      </ListFeature>
+      </Feature>
     </div>
   );
 }
 
-export default trackers(ControlledExpansionPanels);
+export default withOutcome(ControlledExpansionPanels);

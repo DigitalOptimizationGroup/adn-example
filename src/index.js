@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { ProviderWithTracking } from "@digitaloptgroup/cms-react";
+import { AbTesting } from "@digitaloptgroup/cms-react";
 
 const appConfig =
   (typeof window !== "undefined" && window.__APP_CONFIG__) || {};
@@ -19,9 +19,9 @@ const cmsConfig = {
 };
 
 ReactDOM.render(
-  <ProviderWithTracking {...cmsConfig}>
+  <AbTesting {...cmsConfig}>
     <App />
-  </ProviderWithTracking>,
+  </AbTesting>,
   document.getElementById("root")
 );
 
