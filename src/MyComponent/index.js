@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Feature } from "@digitaloptgroup/cms-react";
+import "./Loading.css";
 
 function MyComponentTest({ component: componentName }) {
   let MyComponent;
@@ -11,7 +12,9 @@ function MyComponentTest({ component: componentName }) {
     MyComponent = React.lazy(() => import("./MyComponentDefault"));
   }
   return (
-    <React.Suspense fallback={<div>Loading...</div>}>
+    <React.Suspense
+      fallback={<div class="my-component-loading">Loading...</div>}
+    >
       <MyComponent />
     </React.Suspense>
   );

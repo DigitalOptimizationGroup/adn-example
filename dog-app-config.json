@@ -1,0 +1,12 @@
+{
+  "preCacheManifest": {
+    "/": [
+      { "queryName": "helloWorld", "args": {} },
+      {
+        "queryName": "componentExperiment",
+        "args": { "experimentName": "example" }
+      },
+      { "queryName": "starWarsList", "args": {} }
+    ]
+  }
+}

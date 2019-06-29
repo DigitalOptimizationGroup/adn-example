@@ -1101,26 +1101,26 @@
     pretty-bytes "^5.2.0"
     webpack "^4.32.2"
 
-"@digitaloptgroup/analytics@0.0.1-pre-release.07":
-  version "0.0.1-pre-release.7"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/analytics/-/analytics-0.0.1-pre-release.7.tgz#b9f8ee18c30c91d2b90770159e2af0d6bea69839"
-  integrity sha512-Jdm/BB0M1jnN/z8xLFylXijvq9xjEalBqAACqYf4MFOiBvmBQVHMHGaUl/yg5aWIONI8dq2YvUxhf2riyh46UQ==
+"@digitaloptgroup/analytics@0.0.1-pre-release.08":
+  version "0.0.1-pre-release.8"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/analytics/-/analytics-0.0.1-pre-release.8.tgz#1c06689a99fb31235a14c6ed50e90f69fa3e635b"
+  integrity sha512-Aa8Girk8kF4rtj2GeGLyekA6ZLQRfAQgChRXhUxscQPnRPLpas3d/db9R0wlsmSN87H0oskdkSIV6xJafwab9A==
   dependencies:
     intersection-observer "^0.5.1"
     rxjs "^6.4.0"
 
-"@digitaloptgroup/cms-react@0.0.1-dev-preview.27":
-  version "0.0.1-dev-preview.27"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.27.tgz#f0b1dff1f699114039554658b851765f56262ef3"
-  integrity sha512-bcBV4pB0H8IEUvDdk9dhodbs89oZai6bBPe/6roHkHY5OqEP9ac+Q/0ZjB5DdM6FLHdTFtaa91ZoXKqNEND9zw==
+"@digitaloptgroup/cms-react@0.0.1-dev-preview.29":
+  version "0.0.1-dev-preview.29"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.29.tgz#e0fdc41c105361fe2e83a5635e982f3247ef3d23"
+  integrity sha512-a2yHZHk8uMzlIAwlVj4IWohPuYwztTvw6kKY/4Gv1LwcWy4MSI6Yuvbn26iL+e2gMOomnRDNImYjsjGa2H4AJA==
   dependencies:
-    "@digitaloptgroup/analytics" "0.0.1-pre-release.07"
-    "@digitaloptgroup/cms" "0.0.1-pre-release.15"
+    "@digitaloptgroup/analytics" "0.0.1-pre-release.08"
+    "@digitaloptgroup/cms" "0.0.1-pre-release.18"
 
-"@digitaloptgroup/cms@0.0.1-pre-release.15":
-  version "0.0.1-pre-release.15"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.15.tgz#cc239d94379cea701bf88b5b158438246f1d2091"
-  integrity sha512-o5R451oMVvPNq0Ef6x8lqmvUPNq5CN/tdPP0YPCj8tBUaGo2gBT3l2gvbGjntEu0hCJORgx/Mi3P5FTJ8ksi/w==
+"@digitaloptgroup/cms@0.0.1-pre-release.18":
+  version "0.0.1-pre-release.18"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.18.tgz#b0e20e35e8aa1ef4dffe6d8db7d443c5bc2ab1ce"
+  integrity sha512-XcBX3aCQ2218wk8J9Yygw1/fHqvg6/ilAN8lN22jm5kzcJyoZiV83tl3TfHbWIFt+nQXKytN+xwyDwhLna33Og==
   dependencies:
     rxjs "^6.4.0"
 
