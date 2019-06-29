@@ -1109,18 +1109,18 @@
     intersection-observer "^0.5.1"
     rxjs "^6.4.0"
 
-"@digitaloptgroup/cms-react@0.0.1-dev-preview.29":
-  version "0.0.1-dev-preview.29"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.29.tgz#e0fdc41c105361fe2e83a5635e982f3247ef3d23"
-  integrity sha512-a2yHZHk8uMzlIAwlVj4IWohPuYwztTvw6kKY/4Gv1LwcWy4MSI6Yuvbn26iL+e2gMOomnRDNImYjsjGa2H4AJA==
+"@digitaloptgroup/cms-react@0.0.1-dev-preview.31":
+  version "0.0.1-dev-preview.31"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.31.tgz#03f6551ad0f81e2d81894bcb20e850110fc95276"
+  integrity sha512-3zGOJgx99MXcvns8ZJpDRt12/ZHHuX+CjMech3UW3DI64MjxkTywb9j5lL6a0goj83xI6A7DClEqd7kYAudwWg==
   dependencies:
     "@digitaloptgroup/analytics" "0.0.1-pre-release.08"
-    "@digitaloptgroup/cms" "0.0.1-pre-release.18"
+    "@digitaloptgroup/cms" "0.0.1-pre-release.19"
 
-"@digitaloptgroup/cms@0.0.1-pre-release.18":
-  version "0.0.1-pre-release.18"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.18.tgz#b0e20e35e8aa1ef4dffe6d8db7d443c5bc2ab1ce"
-  integrity sha512-XcBX3aCQ2218wk8J9Yygw1/fHqvg6/ilAN8lN22jm5kzcJyoZiV83tl3TfHbWIFt+nQXKytN+xwyDwhLna33Og==
+"@digitaloptgroup/cms@0.0.1-pre-release.19":
+  version "0.0.1-pre-release.19"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.19.tgz#501ebd02f05c1159b0030f48372f25993cabc5a0"
+  integrity sha512-xAQ+rDtt05FMSNk7N4Xz5WhnpKePgcSRZcmfakj3zwdSmXpatlnBSP2V4E7JjKzihPO8SXyMOcmm/nfwvNFq9A==
   dependencies:
     rxjs "^6.4.0"
 

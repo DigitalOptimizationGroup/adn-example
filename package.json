@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@digitaloptgroup/adn-apps-cra": "0.0.1-dev-preview-13",
-    "@digitaloptgroup/cms-react": "0.0.1-dev-preview.29",
+    "@digitaloptgroup/cms-react": "0.0.1-dev-preview.31",
     "@material-ui/core": "^4.0.1",
     "@material-ui/icons": "^4.0.1",
     "react": "^16.8.6",

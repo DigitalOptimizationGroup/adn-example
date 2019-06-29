@@ -47,7 +47,7 @@ function HelloWorldFeature() {
             </div>
           );
         } else {
-          return <div>Unknown Errorn</div>;
+          return <div>Unknown Error</div>;
         }
       }}
     </Feature>

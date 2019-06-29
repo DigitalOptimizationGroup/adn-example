@@ -3,6 +3,7 @@ import "./App.css";
 import StarWarsList from "./StarWarsList";
 import MyComponent from "./MyComponent";
 import HelloWorld from "./HelloWorld";
+import Intentional404 from "./Intentional404";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HelloWorld />
       <StarWarsList />
       <MyComponent />
+      <Intentional404 />
     </div>
   );
 }

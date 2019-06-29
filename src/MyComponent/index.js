@@ -13,7 +13,7 @@ function MyComponentTest({ component: componentName }) {
   }
   return (
     <React.Suspense
-      fallback={<div class="my-component-loading">Loading...</div>}
+      fallback={<div className="my-component-loading">Loading...</div>}
     >
       <MyComponent />
     </React.Suspense>
