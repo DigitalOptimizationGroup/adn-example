@@ -2,11 +2,14 @@
 
 This is an example application built on React Create App and designed to be deployed into Digital Optimization Group's Application Delivery Network.
 
+Documentation:
+https://docs.digitaloptgroup.com/
+
 ### Prerequisites - This requires an account
 
-You will need to have an account on the Digital Optimization Group platform to deploy and use this application.
+The Digital Optimization Group's platform is currently available through a developer preview.
 
-You can request an invitation to our developer preview by emailing devs@digitaloptgroup.com or getting one from someone who already has access.
+If you would like to join the waiting list for access please email us at preview@digitaloptgroup.com. If you already have access, welcome to Digital Optimization Group.
 
 # Usage
 
@@ -59,5 +62,3 @@ You can make blue your only production backend by running:
 dog proxy:prod blue
 dog proxy:apply
 ```
-
-# What can this App do?
