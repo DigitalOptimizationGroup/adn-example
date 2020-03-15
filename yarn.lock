@@ -1109,18 +1109,18 @@
     intersection-observer "^0.5.1"
     rxjs "^6.4.0"
 
-"@digitaloptgroup/cms-react@0.0.1-dev-preview.31":
-  version "0.0.1-dev-preview.31"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.31.tgz#03f6551ad0f81e2d81894bcb20e850110fc95276"
-  integrity sha512-3zGOJgx99MXcvns8ZJpDRt12/ZHHuX+CjMech3UW3DI64MjxkTywb9j5lL6a0goj83xI6A7DClEqd7kYAudwWg==
+"@digitaloptgroup/cms-react@0.0.1-dev-preview.32":
+  version "0.0.1-dev-preview.32"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.32.tgz#60c7b9a6f271f06108d79fbee5c8a79925dd641d"
+  integrity sha512-dwz9ItWHBLcPtWPqHIzUNHXDywCK6mvalvXAbhRlxcxpAkMxHZzoXX3hPV2z+xYy1nEA73VUIgX1AISlU+rtfw==
   dependencies:
     "@digitaloptgroup/analytics" "0.0.1-pre-release.08"
-    "@digitaloptgroup/cms" "0.0.1-pre-release.19"
+    "@digitaloptgroup/cms" "0.0.1-pre-release.20"
 
-"@digitaloptgroup/cms@0.0.1-pre-release.19":
-  version "0.0.1-pre-release.19"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.19.tgz#501ebd02f05c1159b0030f48372f25993cabc5a0"
-  integrity sha512-xAQ+rDtt05FMSNk7N4Xz5WhnpKePgcSRZcmfakj3zwdSmXpatlnBSP2V4E7JjKzihPO8SXyMOcmm/nfwvNFq9A==
+"@digitaloptgroup/cms@0.0.1-pre-release.20":
+  version "0.0.1-pre-release.20"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.20.tgz#44eb4c70db1082b7f50e38f30f47fe1458caa0f4"
+  integrity sha512-DehEH5ruHomSDt71CFWRKa4ZPEB1Qh3ludzM0yX3KS+sw3uL6NTYkjYhfCkGuura6MvDafBGskNZwj8F7n71KA==
   dependencies:
     rxjs "^6.4.0"
 
@@ -1849,9 +1849,9 @@ acorn-walk@^6.0.1:
   integrity sha512-OtUw6JUTgxA2QoqqmrmQ7F2NYqiBPi/L2jqHyFtllhOUvXYQXf0Z1CYUinIfyT4bTCGmrA7gX9FvHA81uzCoVw==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.0.5, acorn@^6.0.7:
   version "6.1.1"
