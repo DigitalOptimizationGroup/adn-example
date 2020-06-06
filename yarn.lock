@@ -1109,18 +1109,18 @@
     intersection-observer "^0.5.1"
     rxjs "^6.4.0"
 
-"@digitaloptgroup/cms-react@0.0.1-dev-preview.31":
-  version "0.0.1-dev-preview.31"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.31.tgz#03f6551ad0f81e2d81894bcb20e850110fc95276"
-  integrity sha512-3zGOJgx99MXcvns8ZJpDRt12/ZHHuX+CjMech3UW3DI64MjxkTywb9j5lL6a0goj83xI6A7DClEqd7kYAudwWg==
+"@digitaloptgroup/cms-react@0.0.1-dev-preview.32":
+  version "0.0.1-dev-preview.32"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.32.tgz#60c7b9a6f271f06108d79fbee5c8a79925dd641d"
+  integrity sha512-dwz9ItWHBLcPtWPqHIzUNHXDywCK6mvalvXAbhRlxcxpAkMxHZzoXX3hPV2z+xYy1nEA73VUIgX1AISlU+rtfw==
   dependencies:
     "@digitaloptgroup/analytics" "0.0.1-pre-release.08"
-    "@digitaloptgroup/cms" "0.0.1-pre-release.19"
+    "@digitaloptgroup/cms" "0.0.1-pre-release.20"
 
-"@digitaloptgroup/cms@0.0.1-pre-release.19":
-  version "0.0.1-pre-release.19"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.19.tgz#501ebd02f05c1159b0030f48372f25993cabc5a0"
-  integrity sha512-xAQ+rDtt05FMSNk7N4Xz5WhnpKePgcSRZcmfakj3zwdSmXpatlnBSP2V4E7JjKzihPO8SXyMOcmm/nfwvNFq9A==
+"@digitaloptgroup/cms@0.0.1-pre-release.20":
+  version "0.0.1-pre-release.20"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.20.tgz#44eb4c70db1082b7f50e38f30f47fe1458caa0f4"
+  integrity sha512-DehEH5ruHomSDt71CFWRKa4ZPEB1Qh3ludzM0yX3KS+sw3uL6NTYkjYhfCkGuura6MvDafBGskNZwj8F7n71KA==
   dependencies:
     rxjs "^6.4.0"
 
@@ -10325,9 +10325,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
