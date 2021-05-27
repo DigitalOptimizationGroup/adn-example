@@ -1109,18 +1109,18 @@
     intersection-observer "^0.5.1"
     rxjs "^6.4.0"
 
-"@digitaloptgroup/cms-react@0.0.1-dev-preview.31":
-  version "0.0.1-dev-preview.31"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.31.tgz#03f6551ad0f81e2d81894bcb20e850110fc95276"
-  integrity sha512-3zGOJgx99MXcvns8ZJpDRt12/ZHHuX+CjMech3UW3DI64MjxkTywb9j5lL6a0goj83xI6A7DClEqd7kYAudwWg==
+"@digitaloptgroup/cms-react@0.0.1-dev-preview.32":
+  version "0.0.1-dev-preview.32"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.32.tgz#60c7b9a6f271f06108d79fbee5c8a79925dd641d"
+  integrity sha512-dwz9ItWHBLcPtWPqHIzUNHXDywCK6mvalvXAbhRlxcxpAkMxHZzoXX3hPV2z+xYy1nEA73VUIgX1AISlU+rtfw==
   dependencies:
     "@digitaloptgroup/analytics" "0.0.1-pre-release.08"
-    "@digitaloptgroup/cms" "0.0.1-pre-release.19"
+    "@digitaloptgroup/cms" "0.0.1-pre-release.20"
 
-"@digitaloptgroup/cms@0.0.1-pre-release.19":
-  version "0.0.1-pre-release.19"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.19.tgz#501ebd02f05c1159b0030f48372f25993cabc5a0"
-  integrity sha512-xAQ+rDtt05FMSNk7N4Xz5WhnpKePgcSRZcmfakj3zwdSmXpatlnBSP2V4E7JjKzihPO8SXyMOcmm/nfwvNFq9A==
+"@digitaloptgroup/cms@0.0.1-pre-release.20":
+  version "0.0.1-pre-release.20"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.20.tgz#44eb4c70db1082b7f50e38f30f47fe1458caa0f4"
+  integrity sha512-DehEH5ruHomSDt71CFWRKa4ZPEB1Qh3ludzM0yX3KS+sw3uL6NTYkjYhfCkGuura6MvDafBGskNZwj8F7n71KA==
   dependencies:
     rxjs "^6.4.0"
 
@@ -3605,9 +3605,9 @@ dns-equal@^1.0.0:
   integrity sha1-s55/HabrCnW6nBcySzR1PEfgZU0=
 
 dns-packet@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.1.tgz#12aa426981075be500b910eedcd0b47dd7deda5a"
-  integrity sha512-0UxfQkMhYAUaZI+xrNZOz/as5KgDU0M/fQ9b6SpkyLbk3GEswDi6PADJVaYJradtRVsRIlF1zLyOodbcTCDzUg==
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.4.tgz#e3455065824a2507ba886c55a89963bb107dec6f"
+  integrity sha512-BQ6F4vycLXBvdrJZ6S3gZewt6rcrks9KBgM9vrhW+knGRqc8uEdT7fuCwloc7nny5xNoMJ17HGH0R/6fpo8ECA==
   dependencies:
     ip "^1.1.0"
     safe-buffer "^5.0.1"
@@ -8887,10 +8887,15 @@ rxjs@^6.4.0:
   dependencies:
     tslib "^1.9.0"
 
-safe-buffer@5.1.2, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+
+safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 safe-regex@^1.1.0:
   version "1.1.0"
