@@ -1109,18 +1109,18 @@
     intersection-observer "^0.5.1"
     rxjs "^6.4.0"
 
-"@digitaloptgroup/cms-react@0.0.1-dev-preview.31":
-  version "0.0.1-dev-preview.31"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.31.tgz#03f6551ad0f81e2d81894bcb20e850110fc95276"
-  integrity sha512-3zGOJgx99MXcvns8ZJpDRt12/ZHHuX+CjMech3UW3DI64MjxkTywb9j5lL6a0goj83xI6A7DClEqd7kYAudwWg==
+"@digitaloptgroup/cms-react@0.0.1-dev-preview.32":
+  version "0.0.1-dev-preview.32"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.32.tgz#60c7b9a6f271f06108d79fbee5c8a79925dd641d"
+  integrity sha512-dwz9ItWHBLcPtWPqHIzUNHXDywCK6mvalvXAbhRlxcxpAkMxHZzoXX3hPV2z+xYy1nEA73VUIgX1AISlU+rtfw==
   dependencies:
     "@digitaloptgroup/analytics" "0.0.1-pre-release.08"
-    "@digitaloptgroup/cms" "0.0.1-pre-release.19"
+    "@digitaloptgroup/cms" "0.0.1-pre-release.20"
 
-"@digitaloptgroup/cms@0.0.1-pre-release.19":
-  version "0.0.1-pre-release.19"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.19.tgz#501ebd02f05c1159b0030f48372f25993cabc5a0"
-  integrity sha512-xAQ+rDtt05FMSNk7N4Xz5WhnpKePgcSRZcmfakj3zwdSmXpatlnBSP2V4E7JjKzihPO8SXyMOcmm/nfwvNFq9A==
+"@digitaloptgroup/cms@0.0.1-pre-release.20":
+  version "0.0.1-pre-release.20"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.20.tgz#44eb4c70db1082b7f50e38f30f47fe1458caa0f4"
+  integrity sha512-DehEH5ruHomSDt71CFWRKa4ZPEB1Qh3ludzM0yX3KS+sw3uL6NTYkjYhfCkGuura6MvDafBGskNZwj8F7n71KA==
   dependencies:
     rxjs "^6.4.0"
 
@@ -7354,9 +7354,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
