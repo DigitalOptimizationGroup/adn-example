@@ -1109,18 +1109,18 @@
     intersection-observer "^0.5.1"
     rxjs "^6.4.0"
 
-"@digitaloptgroup/cms-react@0.0.1-dev-preview.31":
-  version "0.0.1-dev-preview.31"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.31.tgz#03f6551ad0f81e2d81894bcb20e850110fc95276"
-  integrity sha512-3zGOJgx99MXcvns8ZJpDRt12/ZHHuX+CjMech3UW3DI64MjxkTywb9j5lL6a0goj83xI6A7DClEqd7kYAudwWg==
+"@digitaloptgroup/cms-react@0.0.1-dev-preview.32":
+  version "0.0.1-dev-preview.32"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms-react/-/cms-react-0.0.1-dev-preview.32.tgz#60c7b9a6f271f06108d79fbee5c8a79925dd641d"
+  integrity sha512-dwz9ItWHBLcPtWPqHIzUNHXDywCK6mvalvXAbhRlxcxpAkMxHZzoXX3hPV2z+xYy1nEA73VUIgX1AISlU+rtfw==
   dependencies:
     "@digitaloptgroup/analytics" "0.0.1-pre-release.08"
-    "@digitaloptgroup/cms" "0.0.1-pre-release.19"
+    "@digitaloptgroup/cms" "0.0.1-pre-release.20"
 
-"@digitaloptgroup/cms@0.0.1-pre-release.19":
-  version "0.0.1-pre-release.19"
-  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.19.tgz#501ebd02f05c1159b0030f48372f25993cabc5a0"
-  integrity sha512-xAQ+rDtt05FMSNk7N4Xz5WhnpKePgcSRZcmfakj3zwdSmXpatlnBSP2V4E7JjKzihPO8SXyMOcmm/nfwvNFq9A==
+"@digitaloptgroup/cms@0.0.1-pre-release.20":
+  version "0.0.1-pre-release.20"
+  resolved "https://registry.yarnpkg.com/@digitaloptgroup/cms/-/cms-0.0.1-pre-release.20.tgz#44eb4c70db1082b7f50e38f30f47fe1458caa0f4"
+  integrity sha512-DehEH5ruHomSDt71CFWRKa4ZPEB1Qh3ludzM0yX3KS+sw3uL6NTYkjYhfCkGuura6MvDafBGskNZwj8F7n71KA==
   dependencies:
     rxjs "^6.4.0"
 
@@ -8312,9 +8312,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 raf@3.4.1:
   version "3.4.1"
@@ -9997,9 +9997,9 @@ url-loader@1.1.2:
     schema-utils "^1.0.0"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.7.tgz#00780f60dbdae90181f51ed85fb24109422c932a"
+  integrity sha512-HxWkieX+STA38EDk7CE9MEryFeHCKzgagxlGvsdS7WBImq9Mk+PGwiT56w82WI3aicwJA8REp42Cxo98c8FZMA==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
